@@ -9,6 +9,8 @@ import UIKit
 
 class LoginPage: UIViewController {
 
+    @IBOutlet weak var usernameTextField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -17,6 +19,8 @@ class LoginPage: UIViewController {
         
     }
 
-
+    @IBAction func girisyapButton(_ sender: Any) {
+    }
+    
 }
 
