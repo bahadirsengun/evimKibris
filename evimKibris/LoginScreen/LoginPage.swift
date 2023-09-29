@@ -11,7 +11,10 @@ class LoginPage: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-    
+        
+        //
+        print("Login Page Started")
+        
     }
 
 
